@@ -4,15 +4,13 @@
     padding: 0px;
 }
 body{
-    background-color: grey;
+    background-color: white;
 }
 
 #container{
     width: 1200px;
     margin: auto;
-    border: 2px solid black;
-    background-color: white;
-    text-align: center;
+    margin-bottom: 100px;
 }
 
 .card{
@@ -23,17 +21,35 @@ body{
     
 }
 
-.sub-title{
-    width: 385px;
-    background-color: yellow;
-    height: 100px;
-}
-
 img{
     width: 100%;   
     display: block;
+    margin-bottom: 5px;
+    margin-top: 30px;
 }
 
+#marca{
+    font: -webkit-small-control;
+    color: grey
+}
+
+#price-1{
+    color: red;
+    font-weight: bold;
+    font: -webkit-small-control;
+}
+
+#price-2{
+    font: -webkit-small-control;
+    text-decoration: line-through;
+}
+
+h2{
+    font: -webkit-small-control;
+    font-weight: bold;
+}
+
+/* HOVER */
 img + img{
     display: none;
 }
@@ -45,27 +61,28 @@ img + img{
 .card:hover img + img {
     display: block;
 }
+/***********/
 
 .card > .discount{
     position: absolute;
     left: 0px;
-    bottom: 15px;
+    bottom: 71px;
     background-color: red;
     color: white;
     font: -webkit-small-control;
-    padding: 5px 4px;
+    padding: 4px 4px;
     font-size: 11px;
     font-weight: bold;
 }
 
 .card > .special1{
     position: absolute;
-    left: 37px;
-    bottom: 15px;
+    left: 36px;
+    bottom: 71px;
     background-color: rgb(52, 126, 89);
     color: white;
     font: -webkit-small-control;
-    padding: 5px 4px;
+    padding: 4px 5px;
     font-size: 11px;
     font-weight: bold;
 }
@@ -73,13 +90,14 @@ img + img{
 .card > .sub-special{
     position: absolute;
     left: 0px;
-    bottom: 15px;
+    bottom: 71px;
 }
 
 .card > .special2{
     position: absolute;
     right: 0px;
-    top: 12px;
+    top: 45px;
     padding: 7px 10px 4px;
     background-color: white;
+    color: red;
 }
