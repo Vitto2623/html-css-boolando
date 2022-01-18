@@ -24,13 +24,26 @@ body{
 }
 
 img{
-    width: 100%;
+    width: 100%;   
+    display: block;
+}
+
+img + img{
+    display: none;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover img + img {
+    display: block;
 }
 
 .card > .discount{
     position: absolute;
     left: 0px;
-    bottom: 19px;
+    bottom: 15px;
     background-color: red;
     color: white;
     font: -webkit-small-control;
@@ -42,13 +55,19 @@ img{
 .card > .special1{
     position: absolute;
     left: 37px;
-    bottom: 19px;
+    bottom: 15px;
     background-color: rgb(52, 126, 89);
     color: white;
     font: -webkit-small-control;
     padding: 5px 4px;
     font-size: 11px;
     font-weight: bold;
+}
+
+.card > .sub-special{
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
 }
 
 .card > .special2{
