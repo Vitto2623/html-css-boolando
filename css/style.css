@@ -9,16 +9,18 @@ body{
     background-color: white;
 }
 
-.card{
+.card-row-1{
     width: 346px;
-    position: relative
+    position: relative;
+    display: inline-block;
+    
 }
 
 img{
     height: 500px;
 }
 
-.card > .discount{
+.card-row-1 > .discount{
     position: absolute;
     left: 0px;
     bottom: 19px;
@@ -30,7 +32,7 @@ img{
     font-weight: bold;
 }
 
-.card > .special1{
+.card-row-1 > .special1{
     position: absolute;
     left: 34px;
     bottom: 19px;
@@ -42,7 +44,7 @@ img{
     font-weight: bold;
 }
 
-.card > .special2{
+.card-row-1 > .special2{
     position: absolute;
     right: 0px;
     top: 12px;
