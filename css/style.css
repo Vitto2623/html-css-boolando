@@ -23,6 +23,12 @@ body{
     
 }
 
+.sub-title{
+    width: 385px;
+    background-color: yellow;
+    height: 100px;
+}
+
 img{
     width: 100%;   
     display: block;
