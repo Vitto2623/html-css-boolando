@@ -1,50 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: grey;
 }
 
 #container{
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     border: 2px solid black;
     background-color: white;
+    text-align: center;
 }
 
-.card-row-1{
-    width: 346px;
+.card{
+    width: 32%;
     position: relative;
     display: inline-block;
+    margin-right: 12px;
     
 }
 
 img{
-    height: 500px;
+    width: 100%;
 }
 
-.card-row-1 > .discount{
+.card > .discount{
     position: absolute;
     left: 0px;
     bottom: 19px;
     background-color: red;
     color: white;
     font: -webkit-small-control;
-    padding: 4px 4px;
-    font-size: 10px;
+    padding: 5px 4px;
+    font-size: 11px;
     font-weight: bold;
 }
 
-.card-row-1 > .special1{
+.card > .special1{
     position: absolute;
-    left: 34px;
+    left: 37px;
     bottom: 19px;
-    background-color: green;
+    background-color: rgb(52, 126, 89);
     color: white;
     font: -webkit-small-control;
-    padding: 4px 4px;
-    font-size: 10px;
+    padding: 5px 4px;
+    font-size: 11px;
     font-weight: bold;
 }
 
-.card-row-1 > .special2{
+.card > .special2{
     position: absolute;
     right: 0px;
     top: 12px;
